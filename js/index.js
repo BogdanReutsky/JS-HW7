@@ -28,11 +28,11 @@ for(let i = 0; i < randomString.length; i += 1){
 }
 
 const number = [1,4,6,9,2,10,28,15,40,8]
-const biggestNumber = number[i]
+const biggestNumber = number[8]
 console.log(biggestNumber);
 
 for(let i = 0; i < number.length; i += 1){
-    if(biggestNumber < number[i]){
+    if(biggestNumber > number[i]){
         biggestNumber = number[i]
     }
     console.log(biggestNumber);
